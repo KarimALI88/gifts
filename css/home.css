@@ -1,0 +1,355 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar{
+  background-color: white !important;
+  padding: 20px 0 !important;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-align: center !important;
+  z-index: 20 !important;
+  position: fixed !important;
+  top: 0 !important;
+  right: 0;
+  left: 0;
+}
+
+.navbar-brand{
+  color: rgb(231, 34, 67) !important;
+  font-size: 35px !important;
+  font-weight: 400 !important;
+  font-family: 'Alata', sans-serif;
+  font-family: 'Alkalami', serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Paprika', cursive;
+  font-family: 'Prata', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Zeyada', cursive;
+}
+
+.nav-link{
+  color: rgb(231, 34, 67) !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+.nav-link:hover{
+  color: rgb(235, 150, 164) !important;
+  text-decoration: overline !important;
+  transform: scale(1.15);
+}
+
+@media (min-width:1350px) {
+  .navbar-nav{
+    margin-left: 5% !important;
+  } 
+  .nav-item{
+    padding: 0 15px !important;
+  }
+
+  form{
+    margin:0 0 0 18% !important;
+  }
+  .form-control{
+    width: 300px !important;
+    border-radius: 12px !important;
+  }
+}
+
+.btn{
+  background-color: rgb(231, 34, 67) !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+/* ======================================================== */
+
+header{
+  background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)),url(https://img.freepik.com/free-photo/3d-gift-box-scene-with-clouds_173207-1895.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: fit-content;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.statement h3{
+  max-width: 60%;
+  color: white;
+  padding: 180px 0 180px 10%;
+}
+
+@media (max-width:1300px) {
+  .statement h3{
+    max-width: 60%;
+    color: white;
+    padding: 100px 0 100px 10%;
+  }
+}
+
+/* ================================== */
+
+section{
+  display: block;
+  margin: 0 auto !important;
+  width: 100%;
+  text-align: center !important;
+}
+
+.row{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+@media (max-width:1300px) {
+  .row{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+.col-sm-4{
+  padding: 100px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.521);
+  margin-bottom: 50px;
+  max-width: 350px !important; 
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: 2s;
+}
+
+.col-sm-4:hover{
+  color: white !important;
+  cursor: pointer;
+  transform: scale(1.15);
+  box-shadow: rgba(0, 0, 0, 0.753) 0px 10px 20px,rgba(0, 0, 0, 0.753) 0px 6px 6px;
+}
+
+h1 a{
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.521);
+}
+
+h1 a:hover{
+  color: white;
+}
+
+.categ1{
+  background: linear-gradient(rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.425)),url(https://media.istockphoto.com/id/1374546719/photo/fashion-spring-accessories-mint-handbag-and-heart-shaped-sunglasses-on-pastel-pink.jpg?s=612x612&w=0&k=20&c=_co2910fkh5g7TtDso6BiMocWNW4N8WEhb_FzGpKXkA=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.categ2{
+  background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.411)),url(https://images.unsplash.com/photo-1528938102132-4a9276b8e320?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bm90ZWJvb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.categ3{
+  background: linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.445)),url(https://images.unsplash.com/photo-1509024102370-fd7802f4a7a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdpZnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ============================================== */
+
+.offers{
+  background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)),url(https://img.freepik.com/free-photo/3d-gift-box-scene-with-clouds_173207-1895.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: fit-content;
+  padding: 130px 0;
+  color: white;
+  margin-bottom: 20px !important;
+}
+.bestseller a{
+  text-decoration: none !important;
+  color: rgb(231, 34, 67) !important;
+}
+
+.bestseller a:hover{
+  color: rgb(235, 150, 164) !important;
+}
+
+/* ==================================================== */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: rgb(231, 34, 67);
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: rgb(231, 34, 67);
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: rgb(231, 34, 67);
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: rgb(231, 34, 67);
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: rgb(231, 34, 67);
+  padding: 13px 20px;
+  border: 1px solid rgb(231, 34, 67);
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: rgb(231, 34, 67);
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: rgb(231, 34, 67);
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
